@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta charset ="utf-8">
+<title> CV form </title>
+</head>
+<body>
+<h1> CV Form</h1>
+
+<form method ="post" action="http://www.deitel.com">
+<input type="hidden" name="recipient" value="deitel@deitel.com">
+ <input type="hidden" name="subject" value="CV form">
+<input type="hidden" name="redirect" value="main.html">
+ <fieldset>
+  <legend>Personal information</legend>
+ 
+<label> Name:<br>
+<input name ="name" type="text" size="30"></label></p>
+<label> Gender: </label>
+ <input name="Male" type="radio" value="Male">
+<label> Male </label>
+<input name="female" type="radio" value="Female">
+<label> female </label>
+<p><label>Enter a phone number:<br>
+<input type="phone" placeholder="555-55-555" /> (format 555-55-555)  </label></p>
+<p><label> Your linkedin page: 
+<input name ="linkedin" type="page" size="30" ></label>
+<label> EMAIL:
+<input name ="email" type="password" size="30"></label></p>
+</fieldset> 
+<p><label> Years of experience( between 3 and 10):
+<input name ="email" type="password" size="3"></label></p>
+  <label>expected salary :
+4000<input type="range" min="4000" max="100000" value="1000"/>10000
+</label>
+ <p> language:<br>
+
+<input name="language" type="checkbox" value="design"></label>
+<label>Arabic<br>
+<input name="language" type="checkbox" value="design"></label>
+<label>English
+</p>
+<label for="myfile">Choosen your CV:</label>
+  <input type="file" id="myfile" name="myfile" multiple><br><br>
+</p>
+<p>
+<label for="start">the nearest week you can start work
+
+<input type="week"/>  
+</label></p>
+<p>
+<label for="start">the nearest month you can start work
+
+<input type="month" /> 
+</label></p>
+<p><label> the best time to work
+<input type="time"/>
+<p><label>Majors:
+<input name ="majors" type="text" size="30"></label></p>
+<p><label>why you want to work with us:<br>
+<textarea name="comment" rows="4" cols="36"></textarea></label</p>
+<p>
+<input type="submit" value="submit"/>
+<input type="reset" value="reset"/>
+</p>
